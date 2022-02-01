@@ -95,7 +95,7 @@ namespace TarodevController {
 
         private void CalculateRayRanged() {
             // This is crying out for some kind of refactor. 
-            var b = new Bounds(transform.position, _characterBounds.size);
+            var b = new Bounds(transform.position + _characterBounds.center, _characterBounds.size);
 
             _raysDown = new RayRange(b.min.x + _rayBuffer, b.min.y, b.max.x - _rayBuffer, b.min.y, Vector2.down);
             _raysUp = new RayRange(b.min.x + _rayBuffer, b.max.y, b.max.x - _rayBuffer, b.max.y, Vector2.up);
@@ -132,7 +132,7 @@ namespace TarodevController {
             // Draw the future position. Handy for visualizing gravity
             Gizmos.color = Color.red;
             var move = new Vector3(_currentHorizontalSpeed, _currentVerticalSpeed) * Time.deltaTime;
-            Gizmos.DrawWireCube(transform.position + move, _characterBounds.size);
+            Gizmos.DrawWireCube(transform.position + _characterBounds.center + move, _characterBounds.size);
         }
 
         #endregion
