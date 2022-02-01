@@ -23,6 +23,7 @@ namespace TarodevController {
         private bool _playerGrounded;
         private ParticleSystem.MinMaxGradient _currentGradient;
         private Vector2 _movement;
+        private float _footstepsDelay = 0.3f;
 
         void Awake() => _player = GetComponentInParent<IPlayerController>();
 
@@ -37,6 +38,12 @@ namespace TarodevController {
             _anim.transform.rotation = Quaternion.RotateTowards(_anim.transform.rotation, Quaternion.Euler(targetRotVector), _tiltSpeed * Time.deltaTime);
 
             // Speed up idle while running
+            if (Mathf.Abs(_player.Input.X) > 0 && _player.Grounded && _footstepsDelay < 0)
+            {
+                _source.PlayOneShot(_footsteps[Random.Range(0, _footsteps.Length)]);
+                _footstepsDelay = 0.3f;
+            }
+            _footstepsDelay -= Time.deltaTime;
             _anim.SetFloat(IdleSpeedKey, Mathf.Lerp(1, _maxIdleSpeed, Mathf.Abs(_player.Input.X)));
 
             // Splat
