@@ -5874,7 +5874,10 @@ MonoBehaviour:
   _launchParticles: {fileID: 1234193940}
   _moveParticles: {fileID: 1843847973}
   _landParticles: {fileID: 1888363769}
-  _footsteps: []
+  _footsteps:
+  - {fileID: 8300000, guid: 5d94063f45167b04ab62585e436da58c, type: 3}
+  - {fileID: 8300000, guid: b5803c17557c59c40bf3a6d69cb46cb3, type: 3}
+  - {fileID: 8300000, guid: 1876767bf7cbf284394dc3817af9593c, type: 3}
   _maxTilt: 0.1
   _tiltSpeed: 1
   _maxIdleSpeed: 2
