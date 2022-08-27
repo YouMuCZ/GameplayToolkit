@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Experimental.Rendering.Universal;
+
 
 public class Thunder : MonoBehaviour
 {
@@ -13,11 +13,11 @@ public class Thunder : MonoBehaviour
     public float minIntensity      = 0.5f;
     public float maxIntensityDelay = 0.5f;
     public float minIntensityDelay = 0.5f;
-    private Light2D light2d;
+    private UnityEngine.Rendering.Universal.Light2D light2d;
 
     void Start()
     {
-        light2d = GetComponent<Light2D>();
+        light2d = GetComponent<UnityEngine.Rendering.Universal.Light2D>();
         light2d.color = color;
         StartCoroutine(StartThunder());
     }

@@ -399,6 +399,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -3100,6 +3101,132 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Bonus Tileset_9: -6332335599182317941
+      Bonus Tileset_6: -1363529154649702630
+      Bonus Tileset_14: 5664570558316501430
+      Bonus Tileset_43: -399909029783856022
+      Bonus Tileset_21: -2095896693065904682
+      Bonus Tileset_115: 5646172692861265848
+      Bonus Tileset_10: -2018471299341820102
+      Bonus Tileset_68: -3601669008537854294
+      Bonus Tileset_34: 35683837765332237
+      Bonus Tileset_38: 5590599612141152581
+      Bonus Tileset_78: 1413362102789265675
+      Bonus Tileset_105: 8907830875652170116
+      Bonus Tileset_76: 1273048955205700754
+      Bonus Tileset_56: -1576670040429769393
+      Bonus Tileset_49: 2134813858893186698
+      Bonus Tileset_94: 4661677448004571209
+      Bonus Tileset_59: -4608055647513074054
+      Bonus Tileset_61: 3157506477733934927
+      Bonus Tileset_5: -3633203114571729507
+      Bonus Tileset_102: -5026071981920788654
+      Bonus Tileset_83: -1834612251010840809
+      Bonus Tileset_90: -714017838973173194
+      Bonus Tileset_77: -8387329574124869399
+      Bonus Tileset_81: -6432645034408602431
+      Bonus Tileset_116: -8624330432762898359
+      Bonus Tileset_11: -1568419196195511861
+      Bonus Tileset_53: -7710987991542448106
+      Bonus Tileset_35: -8422566161963646778
+      Bonus Tileset_108: -653333879071823994
+      Bonus Tileset_46: 892085994617647895
+      Bonus Tileset_48: 3817989641522120704
+      Bonus Tileset_52: -8482224546752992362
+      Bonus Tileset_54: -7155614378015417948
+      Bonus Tileset_58: 2649149714621238190
+      Bonus Tileset_2: 4652032950133785901
+      Bonus Tileset_25: 1516825755972610221
+      Bonus Tileset_74: -421984519104147076
+      Bonus Tileset_20: -6910723824029285467
+      Bonus Tileset_44: 2452909504218668145
+      Bonus Tileset_66: 6810138019683139079
+      Bonus Tileset_39: 6243189837308425762
+      Bonus Tileset_99: 2200975720749996632
+      Bonus Tileset_26: 1832282381537976185
+      Bonus Tileset_7: 8755203573378191806
+      Bonus Tileset_57: -3800574453684333947
+      Bonus Tileset_117: -2045629654842772095
+      Bonus Tileset_122: -2483842119237582915
+      Bonus Tileset_47: 4507469457122753708
+      Bonus Tileset_40: 4466941725674284403
+      Bonus Tileset_87: 7392005761164449735
+      Bonus Tileset_124: -7256913858392096542
+      Bonus Tileset_63: 7458480509680026259
+      Bonus Tileset_112: 4391686335188686878
+      Bonus Tileset_31: 2358011130970110376
+      Bonus Tileset_12: 3775416694177647120
+      Bonus Tileset_93: 4509972427746938505
+      Bonus Tileset_19: 2316435512646090629
+      Bonus Tileset_98: -1616244652339456115
+      Bonus Tileset_121: -8697663334266901240
+      Bonus Tileset_114: -5748004159680100314
+      Bonus Tileset_103: 6749229625694335164
+      Bonus Tileset_100: 3858131969791804608
+      Bonus Tileset_123: 2369322784137837645
+      Bonus Tileset_15: 3750341053799101437
+      Bonus Tileset_23: -718302211059941962
+      Bonus Tileset_69: 653626039902060292
+      Bonus Tileset_97: 6971163821487833811
+      Bonus Tileset_106: 7016617295747965247
+      Bonus Tileset_60: 3794554371634350966
+      Bonus Tileset_70: -5532379806241990787
+      Bonus Tileset_89: 2403395680628029207
+      Bonus Tileset_110: 8172076002979403976
+      Bonus Tileset_8: 2460242326362176538
+      Bonus Tileset_18: -298033294748347085
+      Bonus Tileset_22: -6727201805378255027
+      Bonus Tileset_119: -1219890566284604644
+      Bonus Tileset_79: -3559376485740891560
+      Bonus Tileset_1: 6792771365837357375
+      Bonus Tileset_28: 4521391858270870687
+      Bonus Tileset_88: -3197863549555537763
+      Bonus Tileset_37: -2423703350842888854
+      Bonus Tileset_50: -7293459413158895262
+      Bonus Tileset_16: 2503234084590178917
+      Bonus Tileset_32: 6923027045902359768
+      Bonus Tileset_101: 7252840392580731346
+      Bonus Tileset_75: 7230261705479406942
+      Bonus Tileset_118: 5472907684642311060
+      Bonus Tileset_72: 750431021579200851
+      Bonus Tileset_86: -5596624950500347707
+      Bonus Tileset_113: 4814343969840656892
+      Bonus Tileset_111: 5857632502589229783
+      Bonus Tileset_3: -3389802784099026511
+      Bonus Tileset_27: -5664615703922667178
+      Bonus Tileset_4: -598069186710017715
+      Bonus Tileset_33: -113263991802775445
+      Bonus Tileset_82: -1726397094510224337
+      Bonus Tileset_85: -1925255531654275686
+      Bonus Tileset_64: -6240853017301624160
+      Bonus Tileset_24: 1960393267178686357
+      Bonus Tileset_13: 8086040712440004612
+      Bonus Tileset_36: -2850321606851429179
+      Bonus Tileset_95: 5456516038183413523
+      Bonus Tileset_62: 8633149331214698161
+      Bonus Tileset_65: 3057575922735838959
+      Bonus Tileset_29: -7961541428689241856
+      Bonus Tileset_71: 567626619744388811
+      Bonus Tileset_120: 7903328879870845825
+      Bonus Tileset_92: 6817245888318692523
+      Bonus Tileset_80: -7574958162069801655
+      Bonus Tileset_109: -6344994570007700236
+      Bonus Tileset_51: 2035024468285349912
+      Bonus Tileset_42: -7085080814232378557
+      Bonus Tileset_67: 2545171087398054575
+      Bonus Tileset_45: 2944417754919505659
+      Bonus Tileset_0: 1504991473554541772
+      Bonus Tileset_17: -6874950869810592610
+      Bonus Tileset_96: -4280889593776970449
+      Bonus Tileset_104: -3645089807252172464
+      Bonus Tileset_91: 8895376628958632385
+      Bonus Tileset_30: 3480888070659339250
+      Bonus Tileset_41: 5500386348268647044
+      Bonus Tileset_55: -6092361504935770772
+      Bonus Tileset_73: 2982318328208288200
+      Bonus Tileset_84: 6345532242362370506
+      Bonus Tileset_107: 350399682142926157
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

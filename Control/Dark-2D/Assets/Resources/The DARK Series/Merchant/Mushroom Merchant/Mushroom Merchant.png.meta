@@ -96,6 +96,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -676,6 +677,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Mushroom Merchant_6: 6097063788084691785
+      Mushroom Merchant_4: -2001209063890695088
+      Mushroom Merchant_8: -641075900216408477
+      Mushroom Merchant_16: 4473123186543098219
+      Mushroom Merchant_12: 7025660396608250028
+      Mushroom Merchant_21: 5384076487426548568
+      Mushroom Merchant_19: -339378732577500838
+      Mushroom Merchant_22: 3829030877119176940
+      Mushroom Merchant_7: -3834938935233762681
+      Mushroom Merchant_9: 1664722698220547537
+      Mushroom Merchant_15: 7483195754847826498
+      Mushroom Merchant_23: -3335619924064825580
+      Mushroom Merchant_17: -6375987657200216748
+      Mushroom Merchant_5: 4937999942287224535
+      Mushroom Merchant_11: -8787709832095069143
+      Mushroom Merchant_3: -572743298453974414
+      Mushroom Merchant_18: 6216644368106792792
+      Mushroom Merchant_14: 5873088533107437224
+      Mushroom Merchant_2: -8961022268060470552
+      Mushroom Merchant_10: 3794076469947705229
+      Mushroom Merchant_13: -6166237552000798846
+      Mushroom Merchant_1: -6782474775803749304
+      Mushroom Merchant_0: 5522629400950475488
+      Mushroom Merchant_20: 4093154936729544868
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

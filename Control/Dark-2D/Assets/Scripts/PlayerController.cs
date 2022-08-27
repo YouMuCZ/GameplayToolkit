@@ -51,7 +51,8 @@ namespace TarodevController {
             Input = new FrameInput {
                 JumpDown = UnityEngine.Input.GetButtonDown("Jump"),
                 JumpUp = UnityEngine.Input.GetButtonUp("Jump"),
-                X = UnityEngine.Input.GetAxisRaw("Horizontal")
+                X = UnityEngine.Input.GetAxisRaw("Horizontal"),
+                NormalAttack = UnityEngine.Input.GetButtonDown("NormalAttack"),
             };
             if (Input.JumpDown) {
                 _lastJumpPressed = Time.time;
